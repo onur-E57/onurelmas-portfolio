@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 
 export const links = {
-  // Kendi portfolyo reponun linki (Açık kaynak kalacaksa böyle kalsın)
   sourceCode: "https://github.com/onur-E57/onurelmas-portfolio",
   ownerName: "Onur Elmas",
-  ownerEmail: "onurelmas@example.com", // Kendi mail adresini yazabilirsin
+  ownerEmail: "onur.elmas04@gmail.com",
 } as const;
 
 export const siteConfig: Metadata = {
