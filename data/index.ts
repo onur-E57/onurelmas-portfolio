@@ -92,11 +92,23 @@ export const projects = [
   },
 ] as const;
 
-export const testimonials = [] as const;
-
+export const testimonials = [
+  {
+    quote:
+      "İş disiplini ve çözüm odaklı yaklaşımı sayesinde projemizi zamanından önce ve eksiksiz teslim aldık. Kesinlikle tavsiye ederim.",
+    name: "Referans Eklenecek",
+    title: "Şirket Yöneticisi",
+  },
+];
 // --- ŞİRKET LOGOLARI (Boş kalabilir) ---
-export const companies = [] as const;
-
+export const companies = [
+  {
+    id: 1,
+    name: "Vercel",
+    img: "/git.svg", // Şimdilik GitHub ikonunu kullanalım, build geçsin
+    nameImg: "/git.svg",
+  },
+] as const;
 // --- DENEYİM ---
 export const workExperience = [
   {
