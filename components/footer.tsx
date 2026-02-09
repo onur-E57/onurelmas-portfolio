@@ -21,23 +21,21 @@ export const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Dijital varlığınızı bir sonraki <span className="text-purple">seviyeye</span> taşımaya hazır mısınız?
         </h1>
 
         <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let&apos;s discuss how I can help your
-          achieve your goals.
+          Bugün bana ulaşın ve hedeflerinize ulaşmanıza nasıl yardımcı olabileceğimi konuşalım.
         </p>
 
         <Link
-          href={`mailto:${links.ownerEmail}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=onur.elmas04@gmail.com`}
           target="_blank"
           rel="noreferrer noopener"
           className="md:mt-10"
         >
           <MagicButton
-            title="Let's get in touch"
+            title="İletişime Geçin"
             icon={<FaLocationArrow />}
             position="right"
             asChild
@@ -48,18 +46,9 @@ export const Footer = () => {
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
           Copyright &copy; {new Date().getFullYear()}{" "}
-          <Link
-            href="https://sanidhy.me"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-purple"
-          >
-            Sanidhya
-          </Link>{" "}
-          |{" "}
-          <Link href={links.sourceCode} className="underline">
-            Source Code
-          </Link>
+          <span className="text-purple">
+            Onur Elmas
+          </span>
         </p>
 
         <div className="flex items-center gap-6 md:gap-3">

@@ -10,14 +10,14 @@ export const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Çalışma <span className="text-purple">Yöntemim</span>
       </h1>
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
         <Card
-          title="Planning & Strategy"
-          icon={<MagicButton title="Phase 1" asChild />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          title="Planlama & Strateji"
+          icon={<MagicButton title="1. Aşama" asChild />}
+          description="Web sitenizin hedeflerini, hedef kitlenizi ve temel fonksiyonlarını belirlemek için birlikte çalışırız. Site yapısını, menüleri ve içerik gereksinimlerini netleştiririz."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Deployment & Progress Update"
-          icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          title="Geliştirme & İlerleme"
+          icon={<MagicButton title="2. Aşama" asChild />}
+          description="Plan üzerinde anlaştıktan sonra, en sevdiğim lo-fi listemi açıp kodlamaya başlarım. İlk taslaklardan bitmiş koda kadar her adımda sizi gelişmelerden haberdar ederim."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +42,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Development & Launch"
-          icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          title="Teslimat & Yayına Alma"
+          icon={<MagicButton title="3. Aşama" asChild />}
+          description="İşte sihrin gerçekleştiği an! Onaylanan tasarıma ve fonksiyonlara göre sitenizi son haline getirip yayına alır, kusursuz çalıştığından emin olurum."
         >
           <CanvasRevealEffect
             animationSpeed={3}
