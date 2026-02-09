@@ -1,5 +1,3 @@
-// Bu dosya sitenin BEYNİDİR. Buradaki her değişiklik sitede görünür.
-
 export const navItems = [
   { name: "Hakkımda", link: "#about" },
   { name: "Projeler", link: "#projects" },
