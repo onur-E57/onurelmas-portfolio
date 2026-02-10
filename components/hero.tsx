@@ -40,7 +40,7 @@ export const Hero = () => {
             Merhaba, Ben {links.ownerName}. İstanbul&apos;da yaşayan bir Frontend Geliştiricisiyim.
           </p>
 
-          <Link href="#about" className="md:mt-10">
+          <Link href="#projects" className="md:mt-10">
             <MagicButton
               title="Projelerimi İncele"
               icon={<FaLocationArrow />}
