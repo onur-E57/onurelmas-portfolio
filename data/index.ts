@@ -88,15 +88,6 @@ export const projects = [
     link: "https://hasel-mermercilik.vercel.app/",
     sourceCode: "https://github.com/onur-E57/HaselMermercilik",
   },
-  {
-    id: 3,
-    title: "Kişisel Finans Yönetimi",
-    des: "Java ve Android Studio ile geliştirilen, kullanıcıların günlük gider geçmişini ve harcama kategorilerini takip edebildiği mobil uygulama.",
-    img: "/finance-app.png", // Buraya projeye uygun bir görsel ekleyebilirsin
-    iconLists: ["/java.svg"], // Java ikonu eklemen gerekebilir
-    link: "https://github.com/onur-E57",
-    sourceCode: "https://github.com/onur-E57",
-  }
 ] as const;
 
 export const testimonials = [
