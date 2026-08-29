@@ -28,7 +28,7 @@ export const Approach = () => {
         <Card
           title="Geliştirme & İlerleme"
           icon={<MagicButton title="2. Aşama" asChild />}
-          description="Plan üzerinde anlaştıktan sonra, en sevdiğim lo-fi listemi açıp kodlamaya başlarım. İlk taslaklardan bitmiş koda kadar her adımda sizi gelişmelerden haberdar ederim."
+          description="Plan üzerinde anlaştıktan sonra kodlamaya başlarım. İlk taslaklardan bitmiş koda kadar her adımda sizi gelişmelerden haberdar ederim."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -7,13 +7,19 @@ export const links = {
 } as const;
 
 export const siteConfig: Metadata = {
-  title: "Onur Elmas | Frontend Developer",
-  description: "Onur Elmas'ın modern ve minimalist kişisel portfolyo web sitesi.",
+  title: "Onur Elmas | Jr. Full-Stack Developer",
+  description: "Onur Elmas'ın kişisel portfolyo web sitesi. React, .NET C# ve Java ile geliştirilmiş full-stack, frontend ve backend projeleri.",
   keywords: [
     "Onur Elmas",
+    "Full-Stack Developer",
+    "Backend Developer",
     "Frontend Developer",
     "React Geliştirici",
-    "Web Tasarım",
+    ".NET Core",
+    "C#",
+    "ASP.NET",
+    "Java",
+    "SQL Server",
     "Next.js",
     "React",
     "TailwindCSS",

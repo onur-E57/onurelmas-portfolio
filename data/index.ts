@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Kullanıcı deneyimini ön planda tutan, modern web arayüzleri tasarlıyorum.",
+    title: "Modern web arayüzleri ve ölçeklenebilir backend mimarileri geliştiriyorum.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Teknoloji Yığınım (Tech Stack)",
-    description: "Sürekli gelişiyorum",
+    title: "Teknoloji Yığınım",
+    description: "Full-Stack Geliştirme",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Yazılım geliştirme tutkusu olan bir teknoloji meraklısıyım.",
+    title: "Yazılım mimarilerine tutkuyla bağlı bir teknoloji meraklısıyım.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,12 +48,12 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Şu an ABK Diamond Projesi üzerinde çalışıyorum",
+    title: "Şu an kurumsal ERP sistemleri ve API servisleri üzerinde çalışıyorum.",
     description: "Son Durum",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg", // Kod görseli
+    img: "/b5.svg", 
     spareImg: "/grid.svg",
   },
   {
@@ -82,12 +82,21 @@ export const projects = [
   {
     id: 2,
     title: "Hasel Mermercilik - Vitrin",
-    des: "Mermercilik sektörü için geliştirdiğim Landing Page bir React App",
+    des: "Mermercilik sektörü için React ve Vite kullanılarak tasarlanmış, SEO uyumlu ve animasyonlu Landing Page uygulaması.",
     img: "/haselmermercilik.png",
     iconLists: ["/re.svg"],
     link: "https://hasel-mermercilik.vercel.app/",
     sourceCode: "https://github.com/onur-E57/HaselMermercilik",
   },
+  {
+    id: 3,
+    title: "Kişisel Finans Yönetimi",
+    des: "Java ve Android Studio ile geliştirilen, kullanıcıların günlük gider geçmişini ve harcama kategorilerini takip edebildiği mobil uygulama.",
+    img: "/finance-app.png", // Buraya projeye uygun bir görsel ekleyebilirsin
+    iconLists: ["/java.svg"], // Java ikonu eklemen gerekebilir
+    link: "https://github.com/onur-E57",
+    sourceCode: "https://github.com/onur-E57",
+  }
 ] as const;
 
 export const testimonials = [
@@ -98,28 +107,30 @@ export const testimonials = [
     title: "Şirket Yöneticisi",
   },
 ];
-// --- ŞİRKET LOGOLARI (Boş kalabilir) ---
+
+// --- ŞİRKET LOGOLARI ---
 export const companies = [
   {
     id: 1,
-    name: "Vercel",
-    img: "/git.svg", // Şimdilik GitHub ikonunu kullanalım, build geçsin
+    name: "Sentez Yazılım",
+    img: "/git.svg", 
     nameImg: "/git.svg",
   },
 ] as const;
+
 // --- DENEYİM ---
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Geliştirici",
-    desc: "React, JavaScript ve Modern UI kütüphaneleri kullanarak responsive ve etkileşimli web arayüzleri geliştiriyorum.",
+    title: "Yazılım Geliştirme Stajyeri | Sentez Yazılım",
+    desc: "Kurumsal ERP sistemleri üzerinde çalışıyor; .NET C#, ASP.NET Core Web API ve SQL Server kullanarak güvenli veri akışları ve backend servisleri geliştiriyorum.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Junior Frontend Developer Desc",
-    desc: "İstanbul Gelişim Üniversitesi'ndeki akademik eğitimimin yanı sıra, modern web teknolojileriyle (React, Next.js) gerçek dünya projeleri geliştiriyor ve freelance çözümler sunuyorum.",
+    title: "Freelance Frontend Geliştirici",
+    desc: "İşletmeler ve e-ticaret projeleri için React, JavaScript ve modern CSS mimarileri (Tailwind) kullanarak responsive ve kullanıcı odaklı web arayüzleri tasarlıyorum.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
@@ -146,6 +157,6 @@ export const socialMedia = [
 
 // --- TEKNOLOJİ YIĞINI ---
 export const techStack = {
-  stack1: ["Wordpress", "HTML5", "CSS"],
-  stack2: ["Javascript", "React.js"],
+  stack1: ["C#", ".NET Core", "SQL Server"],
+  stack2: ["React", "Java", "Tailwind"],
 } as const;

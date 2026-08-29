@@ -37,7 +37,7 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Merhaba, Ben {links.ownerName}. İstanbul&apos;da yaşayan bir Frontend Geliştiricisiyim.
+            Merhaba, Ben {links.ownerName}. İstanbul&apos;da yaşayan bir Full-Stack Geliştiriciyim.
           </p>
 
           <Link href="#projects" className="md:mt-10">
