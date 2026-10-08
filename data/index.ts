@@ -88,6 +88,15 @@ export const projects = [
     link: "https://hasel-mermercilik.vercel.app/",
     sourceCode: "https://github.com/onur-E57/HaselMermercilik",
   },
+  {
+    id: 3,
+    title: "Sihirbazın Çırağı - 3D Baskı",
+    des: "3D yazıcı ile takı, anahtarlık gibi ürünler yapan bir E-Ticaret platformu için geliştirdiğim Landing Page uygulaması.",
+    img: "/sihirbaz.png",
+    iconLists: ["/re.svg"],
+    link: "https://sihirbazin-ciragi-landing-page.vercel.app",
+    sourceCode: "https://github.com/onur-E57/sihirbazin-ciragi-landing-page",
+  },
 ] as const;
 
 export const testimonials = [
