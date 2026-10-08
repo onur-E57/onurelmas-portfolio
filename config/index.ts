@@ -7,7 +7,7 @@ export const links = {
 } as const;
 
 export const siteConfig: Metadata = {
-  title: "Onur Elmas | Jr. Full-Stack Developer",
+  title: "Onur Elmas | Full-Stack Developer",
   description: "Onur Elmas'ın kişisel portfolyo web sitesi. React, .NET C# ve Java ile geliştirilmiş full-stack, frontend ve backend projeleri.",
   keywords: [
     "Onur Elmas",
